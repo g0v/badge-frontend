@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+
+import AppBar from './components/AppBar'
+import SignIn from './components/SignIn'
+import SignUp from './components/SignUp'
+import HomePage from './components/HomePage'
+import ProjectPage from './components/ProjectPage'
+import PlatformBadge from './components/PlatformBadge'
+import UserProfile from './components/UserProfile'
+import ManagerDashboard from './components/ManagerDashboard'
+import Manage from './components/ManageProject'
+import Administrator from './components/Administrator'
+import Welcome from './components/Welcome'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <AppBar />
+      <Administrator />
+    </>
+  )
 }
 
-export default App;
+export default App
