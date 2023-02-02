@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <AppBar />
-      <Administrator />
+      <Manage />
     </>
   )
 }
